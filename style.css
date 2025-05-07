@@ -11,7 +11,7 @@ header {
   position: relative;
   overflow: hidden;
 }
-header video {
+header img {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
@@ -64,15 +64,6 @@ section {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 .block h2 { margin-top: 0; }
-.shop-item {
-  border: 1px dashed #999;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 6px;
-  background: #fef8e7;
-}
-.shop-item h3 { margin-top: 0; }
-.soldout { color: red; font-weight: bold; }
 footer {
   text-align: center;
   padding: 1rem;
@@ -80,20 +71,7 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
-.top-link {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #ff6600;
-  color: white;
-  padding: 0.5rem 0.8rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  text-decoration: none;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-.fixprofil video {
-  width: 100%;
+.fixprofil img {
   max-width: 200px;
   float: right;
   margin-left: 1rem;
@@ -101,7 +79,7 @@ footer {
   border-radius: 6px;
 }
 @media (max-width: 768px) {
-  .fixprofil video {
+  .fixprofil img {
     float: none;
     display: block;
     margin: 0 auto 1rem auto;
